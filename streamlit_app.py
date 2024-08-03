@@ -9,5 +9,5 @@ st.info('In this app, we will be performing data analysis, data summary and aggr
 
 penguins = sns.load_dataset('penguins')
 with st.expander('Data'):
-  st.write('**Raw data**)
+  st.write('**Raw data**')
   penguins
