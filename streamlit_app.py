@@ -11,3 +11,6 @@ penguins = sns.load_dataset('penguins')
 with st.expander('Data'):
   st.write('**Raw data**')
   penguins
+
+with st.expander('Let's visualize our data with a scatter plot'):
+    
