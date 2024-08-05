@@ -13,5 +13,8 @@ with st.expander('Data'):
   st.write('**Raw data**')
   penguins
 
-st.write("Let's visualize our data with a scatter plot")
+with st.expander("Visualizations"):
+  st.write('**Scatter Plot**')
+  st.scatter_chart(data = penguins, x='bill_length_mm', y='body_mass_g', color='species')
+  
     
