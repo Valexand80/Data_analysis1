@@ -13,5 +13,5 @@ with st.expander('Data'):
   st.write('**Raw data**')
   penguins
 
-st.write('Let's visualize our data with a scatter plot')
+st.write("Let's visualize our data with a scatter plot")
     
