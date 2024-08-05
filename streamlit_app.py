@@ -14,7 +14,8 @@ with st.expander('Data'):
   penguins
 
 with st.expander("Visualizations"):
-  st.write('**Scatter Plot of relationship between bill length and body mass**')
+  st.write('**Scatter Plot of relationship between bill length and the body mass**')
   st.scatter_chart(data = penguins, x='bill_length_mm', y='body_mass_g', color='species')
-  
+  st.write('**Scatter Plot of relationship between flipper length and the body mass**')
+  st.scatter_chart(data = penguins, x='flipper_length_mm', y='body_mass_g', color='species')
     
