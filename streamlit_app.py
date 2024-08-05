@@ -2,6 +2,7 @@ import streamlit as st
 import seaborn as sns
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
 
 st.title('Data analysis and aggregation')
 
@@ -12,5 +13,5 @@ with st.expander('Data'):
   st.write('**Raw data**')
   penguins
 
-with st.write('Let's visualize our data with a scatter plot'):
+st.write('Let's visualize our data with a scatter plot')
     
