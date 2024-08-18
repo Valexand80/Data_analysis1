@@ -19,4 +19,4 @@ with st.expander("Visualizations"):
   st.write('**Scatter Plot of relationship between flipper length and the body mass**')
   st.scatter_chart(data = penguins, x='flipper_length_mm', y='body_mass_g', color='species')
     
-st.info('Just testing this still...')
+st.info('To be continued')
