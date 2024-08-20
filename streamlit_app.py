@@ -21,5 +21,5 @@ with st.expander("Visualizations"):
     
 with st.expander('Aggregation and Summarization'):
   st.write('simple aggregation by species and displaying mean body mass value')
-  penguins_agg_mean = penguins.groupby('species').mean()
+  penguins_agg_mean = penguins.groupby('species').mean('body_mass_g')
   penguins_agg_mean
