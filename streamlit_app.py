@@ -19,4 +19,7 @@ with st.expander("Visualizations"):
   st.write('**Scatter Plot of relationship between flipper length and the body mass**')
   st.scatter_chart(data = penguins, x='flipper_length_mm', y='body_mass_g', color='species')
     
-st.info('To be continued')
+with st.expander('Aggregation and Summarization'):
+  st.write('simple aggregation by species and displaying mean body mass value')
+  penguins_agg_mean = penguins.groupby('species').mean()
+  penguins_agg_mean
